@@ -1,0 +1,502 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlbumDetailDataSource"
+provides-nominal:
+- "13iTunesClient221AlbumDetailDataSourceC"
+provides-member:
+- ["13iTunesClient221AlbumDetailDataSourceC", ""]
+provides-dynamic-lookup:
+- "numberOfSections"
+- "tableView"
+depends-top-level:
+- "AlbumDetailDataSource"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- "Song"
+- !private "SongCell"
+- !private "SongViewModel"
+- "String"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "~="
+depends-member:
+- ["13iTunesClient221AlbumDetailDataSourceC", "IndexPath"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "Int"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "Song"]
+- !private ["13iTunesClient221AlbumDetailDataSourceC", "SongCell"]
+- !private ["13iTunesClient221AlbumDetailDataSourceC", "SongViewModel"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "String"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "UITableView"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "UITableViewCell"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "deinit"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "init"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "numberOfSections"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "numberOfSectionsInTableView"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "sectionIndexTitles"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "sectionIndexTitlesForTableView"]
+- !private ["13iTunesClient221AlbumDetailDataSourceC", "songs"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "tableView"]
+- ["13iTunesClient221AlbumDetailDataSourceC", "update"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "reuseIdentifier"]
+- !private ["So15CALayerDelegateP", "songRuntimeLabel"]
+- !private ["So15CALayerDelegateP", "songTitleLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "SongCell"]
+- !private ["s7CVarArgP", "SongViewModel"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberOfSections"]
+- ["s7CVarArgP", "numberOfSectionsInTableView"]
+- !private ["s7CVarArgP", "reuseIdentifier"]
+- ["s7CVarArgP", "sectionIndexTitles"]
+- ["s7CVarArgP", "sectionIndexTitlesForTableView"]
+- !private ["s7CVarArgP", "songRuntimeLabel"]
+- !private ["s7CVarArgP", "songTitleLabel"]
+- !private ["s7CVarArgP", "songs"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "SongCell"]
+- !private ["s28CustomDebugStringConvertibleP", "SongViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSections"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitles"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "songRuntimeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "songTitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "songs"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "SongCell"]
+- !private ["s23CustomStringConvertibleP", "SongViewModel"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "numberOfSections"]
+- ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitles"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s23CustomStringConvertibleP", "songRuntimeLabel"]
+- !private ["s23CustomStringConvertibleP", "songTitleLabel"]
+- !private ["s23CustomStringConvertibleP", "songs"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "SongCell"]
+- !private ["s9EquatableP", "SongViewModel"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "numberOfSections"]
+- ["s9EquatableP", "numberOfSectionsInTableView"]
+- !private ["s9EquatableP", "reuseIdentifier"]
+- !private ["s9EquatableP", "row"]
+- ["s9EquatableP", "sectionIndexTitles"]
+- ["s9EquatableP", "sectionIndexTitlesForTableView"]
+- !private ["s9EquatableP", "songRuntimeLabel"]
+- !private ["s9EquatableP", "songTitleLabel"]
+- !private ["s9EquatableP", "songs"]
+- ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "text"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "SongCell"]
+- !private ["s8HashableP", "SongViewModel"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "numberOfSections"]
+- ["s8HashableP", "numberOfSectionsInTableView"]
+- !private ["s8HashableP", "reuseIdentifier"]
+- !private ["s8HashableP", "row"]
+- ["s8HashableP", "sectionIndexTitles"]
+- ["s8HashableP", "sectionIndexTitlesForTableView"]
+- !private ["s8HashableP", "songRuntimeLabel"]
+- !private ["s8HashableP", "songTitleLabel"]
+- !private ["s8HashableP", "songs"]
+- ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "text"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "reuseIdentifier"]
+- !private ["So8NSCodingP", "songRuntimeLabel"]
+- !private ["So8NSCodingP", "songTitleLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Song"]
+- !private ["So8NSObjectC", "SongCell"]
+- !private ["So8NSObjectC", "SongViewModel"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "numberOfSectionsInTableView"]
+- !private ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectC", "sectionIndexTitles"]
+- ["So8NSObjectC", "sectionIndexTitlesForTableView"]
+- !private ["So8NSObjectC", "songRuntimeLabel"]
+- !private ["So8NSObjectC", "songTitleLabel"]
+- ["So8NSObjectC", "songs"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "SongCell"]
+- !private ["So16NSObjectProtocolP", "SongViewModel"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "numberOfSections"]
+- ["So16NSObjectProtocolP", "numberOfSectionsInTableView"]
+- !private ["So16NSObjectProtocolP", "reuseIdentifier"]
+- ["So16NSObjectProtocolP", "sectionIndexTitles"]
+- ["So16NSObjectProtocolP", "sectionIndexTitlesForTableView"]
+- !private ["So16NSObjectProtocolP", "songRuntimeLabel"]
+- !private ["So16NSObjectProtocolP", "songTitleLabel"]
+- !private ["So16NSObjectProtocolP", "songs"]
+- ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13iTunesClient28SongCellC", "reuseIdentifier"]
+- !private ["13iTunesClient28SongCellC", "songRuntimeLabel"]
+- !private ["13iTunesClient28SongCellC", "songTitleLabel"]
+- !private ["13iTunesClient213SongViewModelV", "init"]
+- !private ["13iTunesClient213SongViewModelV", "runtime"]
+- !private ["13iTunesClient213SongViewModelV", "title"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "reuseIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "songRuntimeLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "songTitleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "reuseIdentifier"]
+- !private ["So12UIAppearanceP", "songRuntimeLabel"]
+- !private ["So12UIAppearanceP", "songTitleLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "reuseIdentifier"]
+- !private ["So21UIAppearanceContainerP", "songRuntimeLabel"]
+- !private ["So21UIAppearanceContainerP", "songTitleLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "reuseIdentifier"]
+- !private ["So17UICoordinateSpaceP", "songRuntimeLabel"]
+- !private ["So17UICoordinateSpaceP", "songTitleLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "reuseIdentifier"]
+- !private ["So13UIDynamicItemP", "songRuntimeLabel"]
+- !private ["So13UIDynamicItemP", "songTitleLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "reuseIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "songRuntimeLabel"]
+- !private ["So18UIFocusEnvironmentP", "songTitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "reuseIdentifier"]
+- !private ["So11UIFocusItemP", "songRuntimeLabel"]
+- !private ["So11UIFocusItemP", "songTitleLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So27UIGestureRecognizerDelegateP", "reuseIdentifier"]
+- !private ["So27UIGestureRecognizerDelegateP", "songRuntimeLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "songTitleLabel"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "reuseIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "songRuntimeLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "songTitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "reuseIdentifier"]
+- !private ["So11UIResponderC", "songRuntimeLabel"]
+- !private ["So11UIResponderC", "songTitleLabel"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "reuseIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "songRuntimeLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "songTitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So15UITableViewCellC", "reuseIdentifier"]
+- !private ["So15UITableViewCellC", "songRuntimeLabel"]
+- !private ["So15UITableViewCellC", "songTitleLabel"]
+- !private ["So21UITableViewDataSourceP", "SongCell"]
+- !private ["So21UITableViewDataSourceP", "SongViewModel"]
+- ["So21UITableViewDataSourceP", "numberOfSections"]
+- ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitles"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitlesForTableView"]
+- !private ["So21UITableViewDataSourceP", "songs"]
+- ["So21UITableViewDataSourceP", "tableView"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "reuseIdentifier"]
+- !private ["So18UITraitEnvironmentP", "songRuntimeLabel"]
+- !private ["So18UITraitEnvironmentP", "songTitleLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "reuseIdentifier"]
+- !private ["So6UIViewC", "songRuntimeLabel"]
+- !private ["So6UIViewC", "songTitleLabel"]
+- !private ["So6UIViewC", "text"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reuseIdentifier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "songRuntimeLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "songTitleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "row"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "row"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SongCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SongViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitles"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitlesForTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "songRuntimeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "songTitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "songs"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "row"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13iTunesClient221AlbumDetailDataSourceC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "13iTunesClient28SongCellC"
+- !private "13iTunesClient213SongViewModelV"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewDataSourceP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a6ce958efb8542fddb554a6233ece179"

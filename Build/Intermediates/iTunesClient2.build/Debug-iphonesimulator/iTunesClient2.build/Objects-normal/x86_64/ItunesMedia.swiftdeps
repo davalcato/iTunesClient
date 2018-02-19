@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItunesMedia"
+provides-nominal:
+- "13iTunesClient211ItunesMediaO"
+provides-member:
+- ["13iTunesClient211ItunesMediaO", ""]
+- ["13iTunesClient211ItunesMediaO", "entityQueryItem"]
+- ["13iTunesClient211ItunesMediaO", "attributeQueryItem"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AllAttribute"
+- "AllEntity"
+- "AudiobookAttribute"
+- "AudiobookEntity"
+- "CustomStringConvertible"
+- "EbookEntity"
+- "ItunesMedia"
+- "MovieAttribute"
+- "MovieEntity"
+- "MusicAttribute"
+- "MusicEntity"
+- "MusicVideoAttribute"
+- "MusicVideoEntity"
+- "PodcastAttribute"
+- "PodcastEntity"
+- "ShortFilmAttribute"
+- "ShortFilmEntity"
+- "SoftwareAttribute"
+- "SoftwareEntity"
+- "String"
+- !private "StringLiteralType"
+- "TVShowAttribute"
+- "TVShowEntity"
+- "URLQueryItem"
+depends-member:
+- !private ["13iTunesClient212AllAttributeO", "deinit"]
+- !private ["13iTunesClient212AllAttributeO", "queryItem"]
+- !private ["13iTunesClient29AllEntityO", "deinit"]
+- !private ["13iTunesClient29AllEntityO", "queryItem"]
+- !private ["13iTunesClient218AudiobookAttributeO", "deinit"]
+- !private ["13iTunesClient218AudiobookAttributeO", "queryItem"]
+- !private ["13iTunesClient215AudiobookEntityO", "deinit"]
+- !private ["13iTunesClient215AudiobookEntityO", "queryItem"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "all"]
+- ["s23CustomStringConvertibleP", "audiobook"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "ebook"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "movie"]
+- ["s23CustomStringConvertibleP", "music"]
+- ["s23CustomStringConvertibleP", "musicVideo"]
+- ["s23CustomStringConvertibleP", "podcast"]
+- ["s23CustomStringConvertibleP", "shortFilm"]
+- ["s23CustomStringConvertibleP", "software"]
+- ["s23CustomStringConvertibleP", "tvShow"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["13iTunesClient211EbookEntityO", "deinit"]
+- !private ["13iTunesClient211EbookEntityO", "queryItem"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "queryItem"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "queryItem"]
+- !private ["13iTunesClient215ItunesAttributeP", "queryItem"]
+- !private ["13iTunesClient212ItunesEntityP", "queryItem"]
+- ["13iTunesClient211ItunesMediaO", "AllAttribute"]
+- ["13iTunesClient211ItunesMediaO", "AllEntity"]
+- ["13iTunesClient211ItunesMediaO", "AudiobookAttribute"]
+- ["13iTunesClient211ItunesMediaO", "AudiobookEntity"]
+- ["13iTunesClient211ItunesMediaO", "EbookEntity"]
+- ["13iTunesClient211ItunesMediaO", "MovieAttribute"]
+- ["13iTunesClient211ItunesMediaO", "MovieEntity"]
+- ["13iTunesClient211ItunesMediaO", "MusicAttribute"]
+- ["13iTunesClient211ItunesMediaO", "MusicEntity"]
+- ["13iTunesClient211ItunesMediaO", "MusicVideoAttribute"]
+- ["13iTunesClient211ItunesMediaO", "MusicVideoEntity"]
+- ["13iTunesClient211ItunesMediaO", "PodcastAttribute"]
+- ["13iTunesClient211ItunesMediaO", "PodcastEntity"]
+- ["13iTunesClient211ItunesMediaO", "ShortFilmAttribute"]
+- ["13iTunesClient211ItunesMediaO", "ShortFilmEntity"]
+- ["13iTunesClient211ItunesMediaO", "SoftwareAttribute"]
+- ["13iTunesClient211ItunesMediaO", "SoftwareEntity"]
+- ["13iTunesClient211ItunesMediaO", "String"]
+- ["13iTunesClient211ItunesMediaO", "TVShowAttribute"]
+- ["13iTunesClient211ItunesMediaO", "TVShowEntity"]
+- ["13iTunesClient211ItunesMediaO", "URLQueryItem"]
+- ["13iTunesClient211ItunesMediaO", "all"]
+- ["13iTunesClient211ItunesMediaO", "attributeQueryItem"]
+- ["13iTunesClient211ItunesMediaO", "audiobook"]
+- ["13iTunesClient211ItunesMediaO", "deinit"]
+- ["13iTunesClient211ItunesMediaO", "description"]
+- ["13iTunesClient211ItunesMediaO", "ebook"]
+- ["13iTunesClient211ItunesMediaO", "entityQueryItem"]
+- ["13iTunesClient211ItunesMediaO", "movie"]
+- ["13iTunesClient211ItunesMediaO", "music"]
+- ["13iTunesClient211ItunesMediaO", "musicVideo"]
+- ["13iTunesClient211ItunesMediaO", "podcast"]
+- ["13iTunesClient211ItunesMediaO", "shortFilm"]
+- ["13iTunesClient211ItunesMediaO", "software"]
+- ["13iTunesClient211ItunesMediaO", "tvShow"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["13iTunesClient214MovieAttributeO", "deinit"]
+- !private ["13iTunesClient214MovieAttributeO", "queryItem"]
+- !private ["13iTunesClient211MovieEntityO", "deinit"]
+- !private ["13iTunesClient211MovieEntityO", "queryItem"]
+- !private ["13iTunesClient214MusicAttributeO", "deinit"]
+- !private ["13iTunesClient214MusicAttributeO", "queryItem"]
+- !private ["13iTunesClient211MusicEntityO", "deinit"]
+- !private ["13iTunesClient211MusicEntityO", "queryItem"]
+- !private ["13iTunesClient219MusicVideoAttributeO", "deinit"]
+- !private ["13iTunesClient219MusicVideoAttributeO", "queryItem"]
+- !private ["13iTunesClient216MusicVideoEntityO", "deinit"]
+- !private ["13iTunesClient216MusicVideoEntityO", "queryItem"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["13iTunesClient216PodcastAttributeO", "deinit"]
+- !private ["13iTunesClient216PodcastAttributeO", "queryItem"]
+- !private ["13iTunesClient213PodcastEntityO", "deinit"]
+- !private ["13iTunesClient213PodcastEntityO", "queryItem"]
+- !private ["13iTunesClient217QueryItemProviderP", "queryItem"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "queryItem"]
+- !private ["s8SequenceP", "init"]
+- !private ["13iTunesClient218ShortFilmAttributeO", "deinit"]
+- !private ["13iTunesClient218ShortFilmAttributeO", "queryItem"]
+- !private ["13iTunesClient215ShortFilmEntityO", "deinit"]
+- !private ["13iTunesClient215ShortFilmEntityO", "queryItem"]
+- !private ["13iTunesClient217SoftwareAttributeO", "deinit"]
+- !private ["13iTunesClient217SoftwareAttributeO", "queryItem"]
+- !private ["13iTunesClient214SoftwareEntityO", "deinit"]
+- !private ["13iTunesClient214SoftwareEntityO", "queryItem"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["13iTunesClient215TVShowAttributeO", "deinit"]
+- !private ["13iTunesClient215TVShowAttributeO", "queryItem"]
+- !private ["13iTunesClient212TVShowEntityO", "deinit"]
+- !private ["13iTunesClient212TVShowEntityO", "queryItem"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13iTunesClient212AllAttributeO"
+- !private "13iTunesClient29AllEntityO"
+- !private "13iTunesClient218AudiobookAttributeO"
+- !private "13iTunesClient215AudiobookEntityO"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "13iTunesClient211EbookEntityO"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "13iTunesClient215ItunesAttributeP"
+- !private "13iTunesClient212ItunesEntityP"
+- "13iTunesClient211ItunesMediaO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "13iTunesClient214MovieAttributeO"
+- !private "13iTunesClient211MovieEntityO"
+- !private "13iTunesClient214MusicAttributeO"
+- !private "13iTunesClient211MusicEntityO"
+- !private "13iTunesClient219MusicVideoAttributeO"
+- !private "13iTunesClient216MusicVideoEntityO"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "13iTunesClient216PodcastAttributeO"
+- !private "13iTunesClient213PodcastEntityO"
+- !private "13iTunesClient217QueryItemProviderP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "13iTunesClient218ShortFilmAttributeO"
+- !private "13iTunesClient215ShortFilmEntityO"
+- !private "13iTunesClient217SoftwareAttributeO"
+- !private "13iTunesClient214SoftwareEntityO"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "13iTunesClient215TVShowAttributeO"
+- !private "13iTunesClient212TVShowEntityO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e8e7c2c5cefc89261ffa9db6f4c20a9b"

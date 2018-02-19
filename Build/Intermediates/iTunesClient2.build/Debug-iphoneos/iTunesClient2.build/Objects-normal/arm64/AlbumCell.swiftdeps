@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlbumCell"
+provides-nominal:
+- "13iTunesClient29AlbumCellC"
+provides-member:
+- ["13iTunesClient29AlbumCellC", ""]
+provides-dynamic-lookup:
+- "albumTitleLabel"
+- "artworkView"
+- "awakeFromNib"
+- "genreLabel"
+- "releaseDateLabel"
+- "setSelected"
+depends-top-level:
+- "AlbumCell"
+- "AlbumCellViewModel"
+- "AssignmentPrecedence"
+- "Bool"
+- "StringLiteralType"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["13iTunesClient29AlbumCellC", "AlbumCellViewModel"]
+- ["13iTunesClient29AlbumCellC", "Bool"]
+- ["13iTunesClient29AlbumCellC", "UIImageView"]
+- ["13iTunesClient29AlbumCellC", "UILabel"]
+- ["13iTunesClient29AlbumCellC", "albumTitleLabel"]
+- ["13iTunesClient29AlbumCellC", "artworkView"]
+- ["13iTunesClient29AlbumCellC", "awakeFromNib"]
+- ["13iTunesClient29AlbumCellC", "configure"]
+- ["13iTunesClient29AlbumCellC", "deinit"]
+- ["13iTunesClient29AlbumCellC", "genreLabel"]
+- ["13iTunesClient29AlbumCellC", "init"]
+- ["13iTunesClient29AlbumCellC", "releaseDateLabel"]
+- ["13iTunesClient29AlbumCellC", "reuseIdentifier"]
+- ["13iTunesClient29AlbumCellC", "setSelected"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "artwork"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "genre"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "releaseDate"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "title"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "albumTitleLabel"]
+- !private ["So15CALayerDelegateP", "artworkView"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "genreLabel"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "releaseDateLabel"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "albumTitleLabel"]
+- !private ["s7CVarArgP", "artworkView"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "genreLabel"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "releaseDateLabel"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "albumTitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "artworkView"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "genreLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "releaseDateLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "albumTitleLabel"]
+- !private ["s23CustomStringConvertibleP", "artworkView"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "genreLabel"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "releaseDateLabel"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "albumTitleLabel"]
+- !private ["s9EquatableP", "artworkView"]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "genreLabel"]
+- !private ["s9EquatableP", "image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "releaseDateLabel"]
+- !private ["s9EquatableP", "setSelected"]
+- !private ["s9EquatableP", "text"]
+- ["s9EquatableP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "albumTitleLabel"]
+- !private ["s8HashableP", "artworkView"]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "genreLabel"]
+- !private ["s8HashableP", "image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "releaseDateLabel"]
+- !private ["s8HashableP", "setSelected"]
+- !private ["s8HashableP", "text"]
+- ["s8HashableP", ""]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "albumTitleLabel"]
+- !private ["So8NSCodingP", "artworkView"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "genreLabel"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "releaseDateLabel"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AlbumCellViewModel"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "albumTitleLabel"]
+- ["So8NSObjectC", "artworkView"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "genreLabel"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "releaseDateLabel"]
+- ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So16NSObjectProtocolP", "albumTitleLabel"]
+- !private ["So16NSObjectProtocolP", "artworkView"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "genreLabel"]
+- !private ["So16NSObjectProtocolP", "image"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "releaseDateLabel"]
+- !private ["So16NSObjectProtocolP", "setSelected"]
+- !private ["So16NSObjectProtocolP", "text"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "albumTitleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "artworkView"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "genreLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "releaseDateLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "albumTitleLabel"]
+- !private ["So12UIAppearanceP", "artworkView"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "genreLabel"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "releaseDateLabel"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "albumTitleLabel"]
+- !private ["So21UIAppearanceContainerP", "artworkView"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "genreLabel"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "releaseDateLabel"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "albumTitleLabel"]
+- !private ["So17UICoordinateSpaceP", "artworkView"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "genreLabel"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "releaseDateLabel"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "albumTitleLabel"]
+- !private ["So13UIDynamicItemP", "artworkView"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "genreLabel"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "releaseDateLabel"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "albumTitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "artworkView"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "genreLabel"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "releaseDateLabel"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "albumTitleLabel"]
+- !private ["So11UIFocusItemP", "artworkView"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "genreLabel"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "releaseDateLabel"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "albumTitleLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "artworkView"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "genreLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "releaseDateLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "albumTitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "artworkView"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "genreLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "releaseDateLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AlbumCellViewModel"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "albumTitleLabel"]
+- ["So11UIResponderC", "artworkView"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "configure"]
+- ["So11UIResponderC", "genreLabel"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "releaseDateLabel"]
+- ["So11UIResponderC", "reuseIdentifier"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "albumTitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "artworkView"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "genreLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "releaseDateLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So15UITableViewCellC", "AlbumCellViewModel"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "albumTitleLabel"]
+- ["So15UITableViewCellC", "artworkView"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "configure"]
+- ["So15UITableViewCellC", "genreLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "releaseDateLabel"]
+- ["So15UITableViewCellC", "reuseIdentifier"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", ""]
+- !private ["So18UITraitEnvironmentP", "albumTitleLabel"]
+- !private ["So18UITraitEnvironmentP", "artworkView"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "genreLabel"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "releaseDateLabel"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "AlbumCellViewModel"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "albumTitleLabel"]
+- ["So6UIViewC", "artworkView"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "configure"]
+- ["So6UIViewC", "genreLabel"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "releaseDateLabel"]
+- ["So6UIViewC", "reuseIdentifier"]
+- ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "text"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "albumTitleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "artworkView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "genreLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "releaseDateLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "albumTitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artworkView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "genreLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "releaseDateLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13iTunesClient29AlbumCellC"
+- !private "13iTunesClient218AlbumCellViewModelV"
+- "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f81bebcdb0639bca96f450de054a2a4c"

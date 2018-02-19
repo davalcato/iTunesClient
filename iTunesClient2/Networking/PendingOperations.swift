@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class PendingOperations {
+    var downloadsInProgress = [IndexPath: Operation]()
+    
+    let downloadQueue = OperationQueue()
+}

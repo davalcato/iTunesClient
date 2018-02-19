@@ -1,0 +1,48 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItunesError"
+provides-nominal:
+- "13iTunesClient211ItunesErrorO"
+provides-member:
+- ["13iTunesClient211ItunesErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Error"
+- "ItunesError"
+- "String"
+depends-member:
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", ""]
+- ["13iTunesClient211ItunesErrorO", "String"]
+- ["13iTunesClient211ItunesErrorO", "_code"]
+- ["13iTunesClient211ItunesErrorO", "_domain"]
+- ["13iTunesClient211ItunesErrorO", "_getEmbeddedNSError"]
+- ["13iTunesClient211ItunesErrorO", "_userInfo"]
+- ["13iTunesClient211ItunesErrorO", "deinit"]
+- ["13iTunesClient211ItunesErrorO", "invalidData"]
+- ["13iTunesClient211ItunesErrorO", "jsonConversionFailure"]
+- ["13iTunesClient211ItunesErrorO", "jsonParsingFailure"]
+- ["13iTunesClient211ItunesErrorO", "requestFailed"]
+- ["13iTunesClient211ItunesErrorO", "responseUnsuccessful"]
+depends-nominal:
+- "s5ErrorP"
+- "13iTunesClient211ItunesErrorO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "646c17ecc3e262660d7a403b52d0cc16"

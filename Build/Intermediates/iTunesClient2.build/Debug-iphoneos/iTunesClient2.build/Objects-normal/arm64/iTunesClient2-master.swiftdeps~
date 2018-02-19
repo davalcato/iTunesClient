@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
+options: "a39ca5593a1ad14b326b50a2005ca6e2"
+build_time: [1519005586, 831880000]
+inputs:
+  "/Users/davalcato/Desktop/iTunesClient2/iTunesClient2/ViewController.swift": [1519005582, 0]
+  "/Users/davalcato/Desktop/iTunesClient2/iTunesClient2/AppDelegate.swift": [1519005582, 0]

@@ -1,0 +1,186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONDownloader"
+provides-nominal:
+- "13iTunesClient214JSONDownloaderC"
+provides-member:
+- ["13iTunesClient214JSONDownloaderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "HTTPURLResponse"
+- "ItunesError"
+- "JSONDownloader"
+- !private "JSONSerialization"
+- "String"
+- "URLRequest"
+- "URLSession"
+- "URLSessionConfiguration"
+- "URLSessionDataTask"
+- "Void"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidData"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonConversionFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "requestFailed"]
+- !private ["s28CustomDebugStringConvertibleP", "responseUnsuccessful"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "invalidData"]
+- !private ["s17CustomReflectableP", "jsonConversionFailure"]
+- !private ["s17CustomReflectableP", "requestFailed"]
+- !private ["s17CustomReflectableP", "responseUnsuccessful"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "invalidData"]
+- !private ["s9DecodableP", "jsonConversionFailure"]
+- !private ["s9DecodableP", "requestFailed"]
+- !private ["s9DecodableP", "responseUnsuccessful"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "invalidData"]
+- !private ["s9EncodableP", "jsonConversionFailure"]
+- !private ["s9EncodableP", "requestFailed"]
+- !private ["s9EncodableP", "responseUnsuccessful"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s5ErrorP", "invalidData"]
+- !private ["s5ErrorP", "jsonConversionFailure"]
+- !private ["s5ErrorP", "requestFailed"]
+- !private ["s5ErrorP", "responseUnsuccessful"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "invalidData"]
+- !private ["s23ExpressibleByNilLiteralP", "jsonConversionFailure"]
+- !private ["s23ExpressibleByNilLiteralP", "requestFailed"]
+- !private ["s23ExpressibleByNilLiteralP", "responseUnsuccessful"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["13iTunesClient211ItunesErrorO", "invalidData"]
+- !private ["13iTunesClient211ItunesErrorO", "jsonConversionFailure"]
+- !private ["13iTunesClient211ItunesErrorO", "requestFailed"]
+- !private ["13iTunesClient211ItunesErrorO", "responseUnsuccessful"]
+- ["13iTunesClient214JSONDownloaderC", "AnyObject"]
+- !private ["13iTunesClient214JSONDownloaderC", "HTTPURLResponse"]
+- ["13iTunesClient214JSONDownloaderC", "ItunesError"]
+- ["13iTunesClient214JSONDownloaderC", "JSON"]
+- !private ["13iTunesClient214JSONDownloaderC", "JSONSerialization"]
+- ["13iTunesClient214JSONDownloaderC", "JSONTaskCompletionHandler"]
+- ["13iTunesClient214JSONDownloaderC", "String"]
+- ["13iTunesClient214JSONDownloaderC", "URLRequest"]
+- ["13iTunesClient214JSONDownloaderC", "URLSession"]
+- ["13iTunesClient214JSONDownloaderC", "URLSessionConfiguration"]
+- ["13iTunesClient214JSONDownloaderC", "URLSessionDataTask"]
+- ["13iTunesClient214JSONDownloaderC", "Void"]
+- ["13iTunesClient214JSONDownloaderC", "deinit"]
+- ["13iTunesClient214JSONDownloaderC", "init"]
+- ["13iTunesClient214JSONDownloaderC", "jsonTask"]
+- ["13iTunesClient214JSONDownloaderC", "session"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["Sq", "invalidData"]
+- !private ["Sq", "jsonConversionFailure"]
+- !private ["Sq", "requestFailed"]
+- !private ["Sq", "responseUnsuccessful"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "invalidData"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonConversionFailure"]
+- !private ["s21_ObjectiveCBridgeableP", "requestFailed"]
+- !private ["s21_ObjectiveCBridgeableP", "responseUnsuccessful"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So15HTTPURLResponseC"
+- !private "s8HashableP"
+- !private "13iTunesClient211ItunesErrorO"
+- "13iTunesClient214JSONDownloaderC"
+- !private "So17JSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "So11URLResponseC"
+- !private "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "9d1da61d315367c030b12fe836acd3ea"
