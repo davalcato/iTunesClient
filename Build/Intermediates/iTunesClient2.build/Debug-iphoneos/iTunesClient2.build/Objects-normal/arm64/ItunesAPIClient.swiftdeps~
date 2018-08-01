@@ -1,0 +1,388 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItunesAPIClient"
+provides-nominal:
+- "13iTunesClient215ItunesAPIClientC"
+provides-member:
+- ["13iTunesClient215ItunesAPIClientC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "Album"
+- "Array"
+- "Artist"
+- !private "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "DispatchQueue"
+- !private "Endpoint"
+- "Int"
+- !private "Itunes"
+- "ItunesAPIClient"
+- "ItunesError"
+- "JSONDownloader"
+- !private "MusicEntity"
+- !private "Song"
+- "String"
+- "StringLiteralType"
+- "Void"
+depends-member:
+- !private ["13iTunesClient25AlbumC", "init"]
+- !private ["13iTunesClient25AlbumC", "songs"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "flatMap"]
+- !private ["13iTunesClient26ArtistC", "albums"]
+- !private ["13iTunesClient26ArtistC", "init"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "flatMap"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "flatMap"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "artistTerm"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonParsingFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "music"]
+- !private ["s28CustomDebugStringConvertibleP", "musicArtist"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "artistTerm"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "jsonParsingFailure"]
+- !private ["s17CustomReflectableP", "music"]
+- !private ["s17CustomReflectableP", "musicArtist"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "music"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "artistTerm"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "jsonParsingFailure"]
+- !private ["s9DecodableP", "music"]
+- !private ["s9DecodableP", "musicArtist"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "artistTerm"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "jsonParsingFailure"]
+- !private ["s9EncodableP", "music"]
+- !private ["s9EncodableP", "musicArtist"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["13iTunesClient28EndpointP", "lookup"]
+- !private ["13iTunesClient28EndpointP", "request"]
+- !private ["13iTunesClient28EndpointP", "search"]
+- !private ["s9EquatableP", "album"]
+- !private ["s9EquatableP", "artistTerm"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "musicArtist"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "song"]
+- !private ["s5ErrorP", "jsonParsingFailure"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "artistTerm"]
+- !private ["s23ExpressibleByNilLiteralP", "jsonParsingFailure"]
+- !private ["s23ExpressibleByNilLiteralP", "music"]
+- !private ["s23ExpressibleByNilLiteralP", "musicArtist"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "album"]
+- !private ["s8HashableP", "artistTerm"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "musicArtist"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "song"]
+- !private ["13iTunesClient26ItunesO", "deinit"]
+- !private ["13iTunesClient26ItunesO", "lookup"]
+- !private ["13iTunesClient26ItunesO", "search"]
+- ["13iTunesClient215ItunesAPIClientC", "Album"]
+- ["13iTunesClient215ItunesAPIClientC", "Artist"]
+- !private ["13iTunesClient215ItunesAPIClientC", "DispatchQueue"]
+- !private ["13iTunesClient215ItunesAPIClientC", "Endpoint"]
+- ["13iTunesClient215ItunesAPIClientC", "Int"]
+- !private ["13iTunesClient215ItunesAPIClientC", "Itunes"]
+- ["13iTunesClient215ItunesAPIClientC", "ItunesError"]
+- ["13iTunesClient215ItunesAPIClientC", "JSONDownloader"]
+- !private ["13iTunesClient215ItunesAPIClientC", "MusicEntity"]
+- ["13iTunesClient215ItunesAPIClientC", "Results"]
+- !private ["13iTunesClient215ItunesAPIClientC", "Song"]
+- ["13iTunesClient215ItunesAPIClientC", "String"]
+- ["13iTunesClient215ItunesAPIClientC", "Void"]
+- ["13iTunesClient215ItunesAPIClientC", "deinit"]
+- ["13iTunesClient215ItunesAPIClientC", "downloader"]
+- ["13iTunesClient215ItunesAPIClientC", "init"]
+- ["13iTunesClient215ItunesAPIClientC", "lookupAlbum"]
+- ["13iTunesClient215ItunesAPIClientC", "lookupArtist"]
+- !private ["13iTunesClient215ItunesAPIClientC", "performRequest"]
+- ["13iTunesClient215ItunesAPIClientC", "searchForArtists"]
+- !private ["13iTunesClient215ItunesAttributeP", "artistTerm"]
+- !private ["13iTunesClient212ItunesEntityP", "album"]
+- !private ["13iTunesClient212ItunesEntityP", "musicArtist"]
+- !private ["13iTunesClient212ItunesEntityP", "song"]
+- !private ["13iTunesClient211ItunesErrorO", "jsonParsingFailure"]
+- !private ["13iTunesClient211ItunesMediaO", "music"]
+- ["13iTunesClient214JSONDownloaderC", "init"]
+- !private ["13iTunesClient214JSONDownloaderC", "jsonTask"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["13iTunesClient214MusicAttributeO", "artistTerm"]
+- !private ["13iTunesClient211MusicEntityO", "album"]
+- !private ["13iTunesClient211MusicEntityO", "deinit"]
+- !private ["13iTunesClient211MusicEntityO", "musicArtist"]
+- !private ["13iTunesClient211MusicEntityO", "song"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "artistTerm"]
+- !private ["Sq", "jsonParsingFailure"]
+- !private ["Sq", "music"]
+- !private ["Sq", "musicArtist"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["13iTunesClient217QueryItemProviderP", "album"]
+- !private ["13iTunesClient217QueryItemProviderP", "artistTerm"]
+- !private ["13iTunesClient217QueryItemProviderP", "musicArtist"]
+- !private ["13iTunesClient217QueryItemProviderP", "song"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "flatMap"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "flatMap"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "album"]
+- !private ["s16RawRepresentableP", "artistTerm"]
+- !private ["s16RawRepresentableP", "musicArtist"]
+- !private ["s16RawRepresentableP", "song"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "flatMap"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13iTunesClient24SongV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- !private ["s23_BidirectionalIndexableP", "flatMap"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "first"]
+- !private ["s10_IndexableP", "flatMap"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "first"]
+- !private ["s14_IndexableBaseP", "flatMap"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s17_MutableIndexableP", "flatMap"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "artistTerm"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonParsingFailure"]
+- !private ["s21_ObjectiveCBridgeableP", "music"]
+- !private ["s21_ObjectiveCBridgeableP", "musicArtist"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s22_RandomAccessIndexableP", "flatMap"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "flatMap"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13iTunesClient25AlbumC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "13iTunesClient26ArtistC"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- !private "13iTunesClient28EndpointP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "13iTunesClient26ItunesO"
+- "13iTunesClient215ItunesAPIClientC"
+- !private "13iTunesClient215ItunesAttributeP"
+- !private "13iTunesClient212ItunesEntityP"
+- !private "13iTunesClient211ItunesErrorO"
+- !private "13iTunesClient211ItunesMediaO"
+- "13iTunesClient214JSONDownloaderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "13iTunesClient214MusicAttributeO"
+- !private "13iTunesClient211MusicEntityO"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So17ProgressReportingP"
+- !private "13iTunesClient217QueryItemProviderP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "13iTunesClient24SongV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d924ba4cd9c36a74c642319a4dabc8d2"

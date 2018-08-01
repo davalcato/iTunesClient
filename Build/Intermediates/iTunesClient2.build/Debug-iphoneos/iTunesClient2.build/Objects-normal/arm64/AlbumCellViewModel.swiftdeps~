@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlbumCellViewModel"
+provides-nominal:
+- "13iTunesClient218AlbumCellViewModelV"
+provides-member:
+- ["13iTunesClient218AlbumCellViewModelV", ""]
+- ["13iTunesClient218AlbumCellViewModelV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "Album"
+- "AlbumCellViewModel"
+- "AssignmentPrecedence"
+- !private "DateFormatter"
+- !private "Locale"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIImage"
+- !private "_ImageLiteralType"
+depends-member:
+- !private ["13iTunesClient25AlbumC", "artwork"]
+- !private ["13iTunesClient25AlbumC", "artworkState"]
+- !private ["13iTunesClient25AlbumC", "censoredName"]
+- !private ["13iTunesClient25AlbumC", "primaryGenre"]
+- !private ["13iTunesClient25AlbumC", "releaseDate"]
+- !private ["13iTunesClient217AlbumArtworkStateO", "deinit"]
+- !private ["13iTunesClient217AlbumArtworkStateO", "downloaded"]
+- ["13iTunesClient218AlbumCellViewModelV", "Album"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "DateFormatter"]
+- !private ["13iTunesClient218AlbumCellViewModelV", "Locale"]
+- ["13iTunesClient218AlbumCellViewModelV", "String"]
+- ["13iTunesClient218AlbumCellViewModelV", "UIImage"]
+- ["13iTunesClient218AlbumCellViewModelV", "artwork"]
+- ["13iTunesClient218AlbumCellViewModelV", "genre"]
+- ["13iTunesClient218AlbumCellViewModelV", "init"]
+- ["13iTunesClient218AlbumCellViewModelV", "releaseDate"]
+- ["13iTunesClient218AlbumCellViewModelV", "title"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "downloaded"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "downloaded"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "locale"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "current"]
+- !private ["s9DecodableP", "downloaded"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "current"]
+- !private ["s9EncodableP", "downloaded"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "downloaded"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "downloaded"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "string"]
+- !private ["13iTunesClient25GenreO", "name"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "downloaded"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "string"]
+- !private ["10Foundation6LocaleV", "current"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["Sq", "downloaded"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "name"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "downloaded"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_OptionalNilComparisonTypeV", "downloaded"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13iTunesClient25AlbumC"
+- !private "13iTunesClient217AlbumArtworkStateO"
+- "13iTunesClient218AlbumCellViewModelV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- !private "13iTunesClient25GenreO"
+- !private "s8HashableP"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d7bb0447fee57188dc5d2164e2bc0d12"

@@ -63,17 +63,15 @@ depends-member:
 - ["13iTunesClient217AlbumArtworkStateO", "placeholder"]
 - ["Sa", "init"]
 - ["s23BidirectionalCollectionP", "init"]
-- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "date"]
 - !private ["s7CVarArgP", "dateFormat"]
-- !private ["s7CVarArgP", "hashValue"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "locale"]
 - !private ["s7CVarArgP", "subscript"]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "hashValue"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "date"]
 - !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
@@ -81,16 +79,13 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "locale"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
-- !private ["s17CustomReflectableP", "hashValue"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "date"]
 - !private ["s23CustomStringConvertibleP", "dateFormat"]
-- !private ["s23CustomStringConvertibleP", "hashValue"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "locale"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -99,36 +94,34 @@ depends-member:
 - !private ["So13DateFormatterC", "init"]
 - !private ["So13DateFormatterC", "locale"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "hashValue"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s10DictionaryV", "subscript"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "hashValue"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "date"]
 - !private ["s9EquatableP", "dateFormat"]
 - ["s9EquatableP", "hashValue"]
-- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "locale"]
 - ["s9EquatableP", "placeholder"]
-- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "subscript"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s17FixedWidthIntegerP", "hashValue"]
 - !private ["So9FormatterC", "date"]
 - !private ["So9FormatterC", "dateFormat"]
 - !private ["So9FormatterC", "init"]
 - !private ["So9FormatterC", "locale"]
 - !private ["13iTunesClient25GenreO", "deinit"]
 - !private ["13iTunesClient25GenreO", "init"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "date"]
 - !private ["s8HashableP", "dateFormat"]
@@ -136,13 +129,9 @@ depends-member:
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "locale"]
 - ["s8HashableP", "placeholder"]
-- ["s8HashableP", ""]
-- !private ["Si", "hashValue"]
 - !private ["10Foundation6LocaleV", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "hashValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "hashValue"]
 - !private ["s10MirrorPathP", "init"]
 - ["s17MutableCollectionP", "init"]
 - !private ["So8NSCodingP", "date"]
@@ -153,9 +142,6 @@ depends-member:
 - !private ["So9NSCopyingP", "dateFormat"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "locale"]
-- !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "date"]
 - !private ["So8NSObjectC", "dateFormat"]
 - !private ["So8NSObjectC", "init"]
@@ -164,57 +150,37 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "dateFormat"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "locale"]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
-- !private ["s7NumericP", "hashValue"]
 - ["s22RandomAccessCollectionP", "init"]
 - ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s16RawRepresentableP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
-- !private ["s13SignedIntegerP", "hashValue"]
-- !private ["s13SignedNumericP", "hashValue"]
-- !private ["s10StrideableP", "hashValue"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - ["s14_ArrayProtocolP", "init"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s18_BitwiseOperationsP", "hashValue"]
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "subscript"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
-- ["s17_MutableIndexableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
-- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
-- ["s22_RandomAccessIndexableP", "init"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s11_StrideableP", "hashValue"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "13iTunesClient25AlbumC"
 - "13iTunesClient217AlbumArtworkStateO"
 - "Sa"
 - "s23BidirectionalCollectionP"
-- !private "s13BinaryIntegerP"
 - !private "Sb"
 - "s7CVarArgP"
 - "s10CollectionP"
@@ -232,84 +198,62 @@ depends-nominal:
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "s17FixedWidthIntegerP"
 - !private "So9FormatterC"
 - !private "13iTunesClient25GenreO"
 - "s8HashableP"
-- !private "Si"
 - !private "10Foundation6LocaleV"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "s17MutableCollectionP"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
-- !private "s7NumericP"
 - "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
 - !private "10Foundation20ReferenceConvertibleP"
 - "s8SequenceP"
-- !private "s13SignedIntegerP"
-- !private "s13SignedNumericP"
-- !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
-- !private "s18_BitwiseOperationsP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "a9652e007a36b3527dc68fc8124fc8cb"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1bc1929751cab5b697d35be6af6cad0a"

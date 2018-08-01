@@ -1,0 +1,406 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItunesAttribute"
+- "MovieAttribute"
+- "PodcastAttribute"
+- "MusicAttribute"
+- "MusicVideoAttribute"
+- "AudiobookAttribute"
+- "ShortFilmAttribute"
+- "SoftwareAttribute"
+- "TVShowAttribute"
+- "AllAttribute"
+provides-nominal:
+- "13iTunesClient215ItunesAttributeP"
+- "13iTunesClient214MovieAttributeO"
+- "13iTunesClient216PodcastAttributeO"
+- "13iTunesClient214MusicAttributeO"
+- "13iTunesClient219MusicVideoAttributeO"
+- "13iTunesClient218AudiobookAttributeO"
+- "13iTunesClient218ShortFilmAttributeO"
+- "13iTunesClient217SoftwareAttributeO"
+- "13iTunesClient215TVShowAttributeO"
+- "13iTunesClient212AllAttributeO"
+provides-member:
+- ["13iTunesClient215ItunesAttributeP", ""]
+- ["13iTunesClient214MovieAttributeO", ""]
+- ["13iTunesClient216PodcastAttributeO", ""]
+- ["13iTunesClient214MusicAttributeO", ""]
+- ["13iTunesClient219MusicVideoAttributeO", ""]
+- ["13iTunesClient218AudiobookAttributeO", ""]
+- ["13iTunesClient218ShortFilmAttributeO", ""]
+- ["13iTunesClient217SoftwareAttributeO", ""]
+- ["13iTunesClient215TVShowAttributeO", ""]
+- ["13iTunesClient212AllAttributeO", ""]
+- ["13iTunesClient215ItunesAttributeP", "queryItem"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AllAttribute"
+- "AudiobookAttribute"
+- "ItunesAttribute"
+- "MovieAttribute"
+- "MusicAttribute"
+- "MusicVideoAttribute"
+- "PodcastAttribute"
+- "QueryItemProvider"
+- "ShortFilmAttribute"
+- "SoftwareAttribute"
+- "String"
+- "StringLiteralType"
+- "TVShowAttribute"
+- "URLQueryItem"
+- !private "~="
+depends-member:
+- ["13iTunesClient212AllAttributeO", "RawValue"]
+- ["13iTunesClient212AllAttributeO", "String"]
+- ["13iTunesClient212AllAttributeO", "actorTerm"]
+- ["13iTunesClient212AllAttributeO", "albumTerm"]
+- ["13iTunesClient212AllAttributeO", "allArtistTerm"]
+- ["13iTunesClient212AllAttributeO", "allTrackTerm"]
+- ["13iTunesClient212AllAttributeO", "artistTerm"]
+- ["13iTunesClient212AllAttributeO", "attributeName"]
+- ["13iTunesClient212AllAttributeO", "authorTerm"]
+- ["13iTunesClient212AllAttributeO", "composerTerm"]
+- ["13iTunesClient212AllAttributeO", "deinit"]
+- ["13iTunesClient212AllAttributeO", "descriptionTerm"]
+- ["13iTunesClient212AllAttributeO", "directorTerm"]
+- ["13iTunesClient212AllAttributeO", "featureFilmTerm"]
+- ["13iTunesClient212AllAttributeO", "genreIndex"]
+- ["13iTunesClient212AllAttributeO", "hashValue"]
+- ["13iTunesClient212AllAttributeO", "init"]
+- ["13iTunesClient212AllAttributeO", "keywordsTerm"]
+- ["13iTunesClient212AllAttributeO", "languageTerm"]
+- ["13iTunesClient212AllAttributeO", "mixTerm"]
+- ["13iTunesClient212AllAttributeO", "movieArtistTerm"]
+- ["13iTunesClient212AllAttributeO", "movieTerm"]
+- ["13iTunesClient212AllAttributeO", "producerTerm"]
+- ["13iTunesClient212AllAttributeO", "queryItem"]
+- ["13iTunesClient212AllAttributeO", "ratingIndex"]
+- ["13iTunesClient212AllAttributeO", "ratingTerm"]
+- ["13iTunesClient212AllAttributeO", "rawValue"]
+- ["13iTunesClient212AllAttributeO", "releaseYearTerm"]
+- ["13iTunesClient212AllAttributeO", "shortFilmTerm"]
+- ["13iTunesClient212AllAttributeO", "showTerm"]
+- ["13iTunesClient212AllAttributeO", "songTerm"]
+- ["13iTunesClient212AllAttributeO", "titleTerm"]
+- ["13iTunesClient212AllAttributeO", "tvEpisodeTerm"]
+- ["13iTunesClient212AllAttributeO", "tvSeasonTerm"]
+- ["13iTunesClient218AudiobookAttributeO", "RawValue"]
+- ["13iTunesClient218AudiobookAttributeO", "String"]
+- ["13iTunesClient218AudiobookAttributeO", "attributeName"]
+- ["13iTunesClient218AudiobookAttributeO", "authorTerm"]
+- ["13iTunesClient218AudiobookAttributeO", "deinit"]
+- ["13iTunesClient218AudiobookAttributeO", "genreIndex"]
+- ["13iTunesClient218AudiobookAttributeO", "hashValue"]
+- ["13iTunesClient218AudiobookAttributeO", "init"]
+- ["13iTunesClient218AudiobookAttributeO", "queryItem"]
+- ["13iTunesClient218AudiobookAttributeO", "ratingIndex"]
+- ["13iTunesClient218AudiobookAttributeO", "rawValue"]
+- ["13iTunesClient218AudiobookAttributeO", "titleTerm"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "attributeName"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "queryItem"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "attributeName"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "queryItem"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- ["13iTunesClient215ItunesAttributeP", "RawValue"]
+- ["13iTunesClient215ItunesAttributeP", "String"]
+- ["13iTunesClient215ItunesAttributeP", "URLQueryItem"]
+- ["13iTunesClient215ItunesAttributeP", "attributeName"]
+- ["13iTunesClient215ItunesAttributeP", "hashValue"]
+- ["13iTunesClient215ItunesAttributeP", "init"]
+- ["13iTunesClient215ItunesAttributeP", "queryItem"]
+- ["13iTunesClient215ItunesAttributeP", "rawValue"]
+- ["13iTunesClient215ItunesAttributeP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["13iTunesClient214MovieAttributeO", "RawValue"]
+- ["13iTunesClient214MovieAttributeO", "String"]
+- ["13iTunesClient214MovieAttributeO", "actorTerm"]
+- ["13iTunesClient214MovieAttributeO", "artistTerm"]
+- ["13iTunesClient214MovieAttributeO", "attributeName"]
+- ["13iTunesClient214MovieAttributeO", "deinit"]
+- ["13iTunesClient214MovieAttributeO", "descriptionTerm"]
+- ["13iTunesClient214MovieAttributeO", "directorTerm"]
+- ["13iTunesClient214MovieAttributeO", "featureFilmTerm"]
+- ["13iTunesClient214MovieAttributeO", "genreIndex"]
+- ["13iTunesClient214MovieAttributeO", "hashValue"]
+- ["13iTunesClient214MovieAttributeO", "init"]
+- ["13iTunesClient214MovieAttributeO", "movieArtistTerm"]
+- ["13iTunesClient214MovieAttributeO", "movieTerm"]
+- ["13iTunesClient214MovieAttributeO", "producerTerm"]
+- ["13iTunesClient214MovieAttributeO", "queryItem"]
+- ["13iTunesClient214MovieAttributeO", "ratingIndex"]
+- ["13iTunesClient214MovieAttributeO", "ratingTerm"]
+- ["13iTunesClient214MovieAttributeO", "rawValue"]
+- ["13iTunesClient214MovieAttributeO", "releaseYearTerm"]
+- ["13iTunesClient214MovieAttributeO", "shortFilmTerm"]
+- ["13iTunesClient214MusicAttributeO", "RawValue"]
+- ["13iTunesClient214MusicAttributeO", "String"]
+- ["13iTunesClient214MusicAttributeO", "albumTerm"]
+- ["13iTunesClient214MusicAttributeO", "artistTerm"]
+- ["13iTunesClient214MusicAttributeO", "attributeName"]
+- ["13iTunesClient214MusicAttributeO", "composerTerm"]
+- ["13iTunesClient214MusicAttributeO", "deinit"]
+- ["13iTunesClient214MusicAttributeO", "genreIndex"]
+- ["13iTunesClient214MusicAttributeO", "hashValue"]
+- ["13iTunesClient214MusicAttributeO", "init"]
+- ["13iTunesClient214MusicAttributeO", "mixTerm"]
+- ["13iTunesClient214MusicAttributeO", "queryItem"]
+- ["13iTunesClient214MusicAttributeO", "ratingIndex"]
+- ["13iTunesClient214MusicAttributeO", "rawValue"]
+- ["13iTunesClient214MusicAttributeO", "songTerm"]
+- ["13iTunesClient219MusicVideoAttributeO", "RawValue"]
+- ["13iTunesClient219MusicVideoAttributeO", "String"]
+- ["13iTunesClient219MusicVideoAttributeO", "albumTerm"]
+- ["13iTunesClient219MusicVideoAttributeO", "artistTerm"]
+- ["13iTunesClient219MusicVideoAttributeO", "attributeName"]
+- ["13iTunesClient219MusicVideoAttributeO", "deinit"]
+- ["13iTunesClient219MusicVideoAttributeO", "genreIndex"]
+- ["13iTunesClient219MusicVideoAttributeO", "hashValue"]
+- ["13iTunesClient219MusicVideoAttributeO", "init"]
+- ["13iTunesClient219MusicVideoAttributeO", "queryItem"]
+- ["13iTunesClient219MusicVideoAttributeO", "ratingIndex"]
+- ["13iTunesClient219MusicVideoAttributeO", "rawValue"]
+- ["13iTunesClient219MusicVideoAttributeO", "songTerm"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["13iTunesClient216PodcastAttributeO", "RawValue"]
+- ["13iTunesClient216PodcastAttributeO", "String"]
+- ["13iTunesClient216PodcastAttributeO", "artistTerm"]
+- ["13iTunesClient216PodcastAttributeO", "attributeName"]
+- ["13iTunesClient216PodcastAttributeO", "authorTerm"]
+- ["13iTunesClient216PodcastAttributeO", "deinit"]
+- ["13iTunesClient216PodcastAttributeO", "descriptionTerm"]
+- ["13iTunesClient216PodcastAttributeO", "genreIndex"]
+- ["13iTunesClient216PodcastAttributeO", "hashValue"]
+- ["13iTunesClient216PodcastAttributeO", "init"]
+- ["13iTunesClient216PodcastAttributeO", "keywordsTerm"]
+- ["13iTunesClient216PodcastAttributeO", "languageTerm"]
+- ["13iTunesClient216PodcastAttributeO", "queryItem"]
+- ["13iTunesClient216PodcastAttributeO", "ratingIndex"]
+- ["13iTunesClient216PodcastAttributeO", "rawValue"]
+- ["13iTunesClient216PodcastAttributeO", "titleTerm"]
+- ["13iTunesClient217QueryItemProviderP", "RawValue"]
+- ["13iTunesClient217QueryItemProviderP", "String"]
+- ["13iTunesClient217QueryItemProviderP", "URLQueryItem"]
+- ["13iTunesClient217QueryItemProviderP", "attributeName"]
+- ["13iTunesClient217QueryItemProviderP", "hashValue"]
+- ["13iTunesClient217QueryItemProviderP", "init"]
+- ["13iTunesClient217QueryItemProviderP", "queryItem"]
+- ["13iTunesClient217QueryItemProviderP", "rawValue"]
+- ["13iTunesClient217QueryItemProviderP", ""]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "attributeName"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "queryItem"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- ["13iTunesClient218ShortFilmAttributeO", "RawValue"]
+- ["13iTunesClient218ShortFilmAttributeO", "String"]
+- ["13iTunesClient218ShortFilmAttributeO", "artistTerm"]
+- ["13iTunesClient218ShortFilmAttributeO", "attributeName"]
+- ["13iTunesClient218ShortFilmAttributeO", "deinit"]
+- ["13iTunesClient218ShortFilmAttributeO", "descriptionTerm"]
+- ["13iTunesClient218ShortFilmAttributeO", "genreIndex"]
+- ["13iTunesClient218ShortFilmAttributeO", "hashValue"]
+- ["13iTunesClient218ShortFilmAttributeO", "init"]
+- ["13iTunesClient218ShortFilmAttributeO", "queryItem"]
+- ["13iTunesClient218ShortFilmAttributeO", "ratingIndex"]
+- ["13iTunesClient218ShortFilmAttributeO", "rawValue"]
+- ["13iTunesClient218ShortFilmAttributeO", "shortFilmTerm"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["13iTunesClient217SoftwareAttributeO", "RawValue"]
+- ["13iTunesClient217SoftwareAttributeO", "String"]
+- ["13iTunesClient217SoftwareAttributeO", "attributeName"]
+- ["13iTunesClient217SoftwareAttributeO", "deinit"]
+- ["13iTunesClient217SoftwareAttributeO", "hashValue"]
+- ["13iTunesClient217SoftwareAttributeO", "init"]
+- ["13iTunesClient217SoftwareAttributeO", "queryItem"]
+- ["13iTunesClient217SoftwareAttributeO", "rawValue"]
+- ["13iTunesClient217SoftwareAttributeO", "softwareDeveloper"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["13iTunesClient215TVShowAttributeO", "RawValue"]
+- ["13iTunesClient215TVShowAttributeO", "String"]
+- ["13iTunesClient215TVShowAttributeO", "attributeName"]
+- ["13iTunesClient215TVShowAttributeO", "deinit"]
+- ["13iTunesClient215TVShowAttributeO", "descriptionTerm"]
+- ["13iTunesClient215TVShowAttributeO", "genreIndex"]
+- ["13iTunesClient215TVShowAttributeO", "hashValue"]
+- ["13iTunesClient215TVShowAttributeO", "init"]
+- ["13iTunesClient215TVShowAttributeO", "queryItem"]
+- ["13iTunesClient215TVShowAttributeO", "ratingIndex"]
+- ["13iTunesClient215TVShowAttributeO", "rawValue"]
+- ["13iTunesClient215TVShowAttributeO", "showTerm"]
+- ["13iTunesClient215TVShowAttributeO", "tvEpisodeTerm"]
+- ["13iTunesClient215TVShowAttributeO", "tvSeasonTerm"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13iTunesClient212AllAttributeO"
+- "13iTunesClient218AudiobookAttributeO"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "13iTunesClient215ItunesAttributeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "13iTunesClient214MovieAttributeO"
+- "13iTunesClient214MusicAttributeO"
+- "13iTunesClient219MusicVideoAttributeO"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "13iTunesClient216PodcastAttributeO"
+- "13iTunesClient217QueryItemProviderP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "13iTunesClient218ShortFilmAttributeO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "13iTunesClient217SoftwareAttributeO"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "13iTunesClient215TVShowAttributeO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation12URLQueryItemV"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "35934737fbc7f0c4a2d3273e0e0f8f7f"

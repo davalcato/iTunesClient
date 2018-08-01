@@ -75,6 +75,8 @@ depends-member:
 - !private ["s7CVarArgP", "ArtworkDownloader"]
 - !private ["s7CVarArgP", "DispatchQueue"]
 - ["s7CVarArgP", "PendingOperations"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "accessoryType"]
 - !private ["s7CVarArgP", "addOperation"]
 - !private ["s7CVarArgP", "albums"]
@@ -97,7 +99,6 @@ depends-member:
 - ["s7CVarArgP", "sectionIndexTitlesForTableView"]
 - !private ["s7CVarArgP", "subscript"]
 - ["s7CVarArgP", "tableView"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "removeValue"]
 - !private ["s10CollectionP", "row"]
@@ -108,6 +109,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "ArtworkDownloader"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - ["s28CustomDebugStringConvertibleP", "PendingOperations"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "accessoryType"]
 - !private ["s28CustomDebugStringConvertibleP", "addOperation"]
 - !private ["s28CustomDebugStringConvertibleP", "albums"]
@@ -123,7 +125,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
 - !private ["s28CustomDebugStringConvertibleP", "pendingOperations"]
-- !private ["s28CustomDebugStringConvertibleP", "placeholder"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadRows"]
 - !private ["s28CustomDebugStringConvertibleP", "removeValue"]
 - !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
@@ -132,12 +133,10 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "sectionIndexTitlesForTableView"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "tableView"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "placeholder"]
 - !private ["s17CustomReflectableP", "removeValue"]
 - !private ["s17CustomReflectableP", "row"]
 - !private ["s17CustomReflectableP", "subscript"]
@@ -146,6 +145,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "ArtworkDownloader"]
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
 - ["s23CustomStringConvertibleP", "PendingOperations"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "accessoryType"]
 - !private ["s23CustomStringConvertibleP", "addOperation"]
@@ -170,10 +170,8 @@ depends-member:
 - ["s23CustomStringConvertibleP", "sectionIndexTitlesForTableView"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - ["s23CustomStringConvertibleP", "tableView"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
-- !private ["s9DecodableP", "placeholder"]
 - !private ["s9DecodableP", "removeValue"]
 - !private ["s9DecodableP", "row"]
 - !private ["s9DecodableP", "subscript"]
@@ -185,7 +183,6 @@ depends-member:
 - !private ["So13DispatchQueueC", "main"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "count"]
-- !private ["s9EncodableP", "placeholder"]
 - !private ["s9EncodableP", "removeValue"]
 - !private ["s9EncodableP", "row"]
 - !private ["s9EncodableP", "subscript"]
@@ -194,6 +191,7 @@ depends-member:
 - !private ["s9EquatableP", "ArtworkDownloader"]
 - !private ["s9EquatableP", "DispatchQueue"]
 - ["s9EquatableP", "PendingOperations"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "accessoryType"]
 - !private ["s9EquatableP", "addOperation"]
@@ -202,6 +200,7 @@ depends-member:
 - !private ["s9EquatableP", "automatic"]
 - !private ["s9EquatableP", "completionBlock"]
 - !private ["s9EquatableP", "configure"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "dequeueReusableCell"]
 - !private ["s9EquatableP", "disclosureIndicator"]
 - !private ["s9EquatableP", "downloadArtworkForAlbum"]
@@ -213,12 +212,13 @@ depends-member:
 - !private ["s9EquatableP", "pendingOperations"]
 - !private ["s9EquatableP", "placeholder"]
 - !private ["s9EquatableP", "reloadRows"]
+- !private ["s9EquatableP", "removeValue"]
 - !private ["s9EquatableP", "reuseIdentifier"]
 - !private ["s9EquatableP", "row"]
 - ["s9EquatableP", "sectionIndexTitles"]
 - ["s9EquatableP", "sectionIndexTitlesForTableView"]
+- !private ["s9EquatableP", "subscript"]
 - ["s9EquatableP", "tableView"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
@@ -226,7 +226,6 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "placeholder"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s8HashableP", "AlbumCell"]
@@ -234,6 +233,7 @@ depends-member:
 - !private ["s8HashableP", "ArtworkDownloader"]
 - !private ["s8HashableP", "DispatchQueue"]
 - ["s8HashableP", "PendingOperations"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "accessoryType"]
 - !private ["s8HashableP", "addOperation"]
@@ -258,7 +258,6 @@ depends-member:
 - ["s8HashableP", "sectionIndexTitles"]
 - ["s8HashableP", "sectionIndexTitlesForTableView"]
 - ["s8HashableP", "tableView"]
-- ["s8HashableP", ""]
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s17MutableCollectionP", "count"]
@@ -279,6 +278,7 @@ depends-member:
 - ["So8NSObjectC", "PendingOperations"]
 - ["So8NSObjectC", "UITableView"]
 - ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "accessoryType"]
 - !private ["So8NSObjectC", "addOperation"]
 - ["So8NSObjectC", "album"]
@@ -300,12 +300,12 @@ depends-member:
 - ["So8NSObjectC", "sectionIndexTitlesForTableView"]
 - ["So8NSObjectC", "tableView"]
 - ["So8NSObjectC", "update"]
-- ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "AlbumCell"]
 - !private ["So16NSObjectProtocolP", "AlbumCellViewModel"]
 - !private ["So16NSObjectProtocolP", "ArtworkDownloader"]
 - !private ["So16NSObjectProtocolP", "DispatchQueue"]
 - ["So16NSObjectProtocolP", "PendingOperations"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "accessoryType"]
 - !private ["So16NSObjectProtocolP", "addOperation"]
 - !private ["So16NSObjectProtocolP", "albums"]
@@ -325,13 +325,11 @@ depends-member:
 - ["So16NSObjectProtocolP", "sectionIndexTitles"]
 - ["So16NSObjectProtocolP", "sectionIndexTitlesForTableView"]
 - ["So16NSObjectProtocolP", "tableView"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "main"]
 - !private ["So9OperationC", "completionBlock"]
 - !private ["So9OperationC", "isCancelled"]
 - !private ["So14OperationQueueC", "addOperation"]
-- !private ["Sq", "placeholder"]
 - !private ["13iTunesClient217PendingOperationsC", "downloadQueue"]
 - !private ["13iTunesClient217PendingOperationsC", "downloadsInProgress"]
 - ["13iTunesClient217PendingOperationsC", "init"]
@@ -418,6 +416,7 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "ArtworkDownloader"]
 - !private ["So21UITableViewDataSourceP", "DispatchQueue"]
 - ["So21UITableViewDataSourceP", "PendingOperations"]
+- ["So21UITableViewDataSourceP", ""]
 - !private ["So21UITableViewDataSourceP", "albums"]
 - !private ["So21UITableViewDataSourceP", "downloadArtworkForAlbum"]
 - ["So21UITableViewDataSourceP", "numberOfSections"]
@@ -426,7 +425,6 @@ depends-member:
 - ["So21UITableViewDataSourceP", "sectionIndexTitles"]
 - ["So21UITableViewDataSourceP", "sectionIndexTitlesForTableView"]
 - ["So21UITableViewDataSourceP", "tableView"]
-- ["So21UITableViewDataSourceP", ""]
 - !private ["SC23UITableViewRowAnimationO", "automatic"]
 - !private ["So18UITraitEnvironmentP", "accessoryType"]
 - !private ["So18UITraitEnvironmentP", "configure"]
@@ -440,9 +438,6 @@ depends-member:
 - !private ["So6UIViewC", "reuseIdentifier"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "row"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "accessoryType"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "configure"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
@@ -454,19 +449,12 @@ depends-member:
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "removeValue"]
-- !private ["s10_IndexableP", "row"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "removeValue"]
-- !private ["s14_IndexableBaseP", "row"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlbumCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlbumCellViewModel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ArtworkDownloader"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "PendingOperations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "accessoryType"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "albums"]
@@ -486,22 +474,11 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitles"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitlesForTableView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "row"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
-- !private ["s21_ObjectiveCBridgeableP", "placeholder"]
 - !private ["s21_ObjectiveCBridgeableP", "removeValue"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
-- !private ["s26_OptionalNilComparisonTypeV", "placeholder"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "row"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
 depends-nominal:
 - !private "13iTunesClient25AlbumC"
 - !private "13iTunesClient217AlbumArtworkStateO"
@@ -530,7 +507,6 @@ depends-nominal:
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
@@ -543,7 +519,6 @@ depends-nominal:
 - !private "So9OS_objectC"
 - !private "So9OperationC"
 - !private "So14OperationQueueC"
-- !private "Sq"
 - "13iTunesClient217PendingOperationsC"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
@@ -573,44 +548,37 @@ depends-nominal:
 - !private "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s26_OptionalNilComparisonTypeV"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "b24cb9ff0ccbd5614b38bd28ed825b2a"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b1ebd32be7130b61bd3e046901688f10"

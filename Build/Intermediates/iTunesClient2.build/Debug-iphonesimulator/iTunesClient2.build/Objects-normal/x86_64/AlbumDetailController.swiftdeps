@@ -51,6 +51,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "text"]
 - ["s7CVarArgP", "AlbumDetailDataSource"]
 - !private ["s7CVarArgP", "AlbumDetailViewModel"]
+- ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "album"]
 - !private ["s7CVarArgP", "albumGenreLabel"]
 - !private ["s7CVarArgP", "albumReleaseDateLabel"]
@@ -63,9 +64,9 @@ depends-member:
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "update"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["s7CVarArgP", ""]
 - ["s28CustomDebugStringConvertibleP", "AlbumDetailDataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "AlbumDetailViewModel"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "album"]
 - !private ["s28CustomDebugStringConvertibleP", "albumGenreLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "albumReleaseDateLabel"]
@@ -78,9 +79,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "update"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "AlbumDetailDataSource"]
 - !private ["s23CustomStringConvertibleP", "AlbumDetailViewModel"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "album"]
 - !private ["s23CustomStringConvertibleP", "albumGenreLabel"]
 - !private ["s23CustomStringConvertibleP", "albumReleaseDateLabel"]
@@ -93,9 +94,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "update"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- ["s23CustomStringConvertibleP", ""]
 - ["s9EquatableP", "AlbumDetailDataSource"]
 - !private ["s9EquatableP", "AlbumDetailViewModel"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "album"]
 - !private ["s9EquatableP", "albumGenreLabel"]
 - !private ["s9EquatableP", "albumReleaseDateLabel"]
@@ -108,9 +109,9 @@ depends-member:
 - !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "update"]
 - !private ["s9EquatableP", "viewDidLoad"]
-- ["s9EquatableP", ""]
 - ["s8HashableP", "AlbumDetailDataSource"]
 - !private ["s8HashableP", "AlbumDetailViewModel"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "album"]
 - !private ["s8HashableP", "albumGenreLabel"]
 - !private ["s8HashableP", "albumReleaseDateLabel"]
@@ -123,9 +124,9 @@ depends-member:
 - !private ["s8HashableP", "text"]
 - !private ["s8HashableP", "update"]
 - !private ["s8HashableP", "viewDidLoad"]
-- ["s8HashableP", ""]
 - ["So8NSCodingP", "AlbumDetailDataSource"]
 - !private ["So8NSCodingP", "AlbumDetailViewModel"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "album"]
 - !private ["So8NSCodingP", "albumGenreLabel"]
 - !private ["So8NSCodingP", "albumReleaseDateLabel"]
@@ -137,9 +138,9 @@ depends-member:
 - !private ["So8NSCodingP", "tableView"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
-- ["So8NSCodingP", ""]
 - ["So26NSExtensionRequestHandlingP", "AlbumDetailDataSource"]
 - !private ["So26NSExtensionRequestHandlingP", "AlbumDetailViewModel"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "album"]
 - !private ["So26NSExtensionRequestHandlingP", "albumGenreLabel"]
 - !private ["So26NSExtensionRequestHandlingP", "albumReleaseDateLabel"]
@@ -149,7 +150,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "tableView"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So26NSExtensionRequestHandlingP", ""]
 - ["So8NSObjectC", "Album"]
 - ["So8NSObjectC", "AlbumDetailDataSource"]
 - !private ["So8NSObjectC", "AlbumDetailViewModel"]
@@ -170,6 +170,7 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So16NSObjectProtocolP", "AlbumDetailDataSource"]
 - !private ["So16NSObjectProtocolP", "AlbumDetailViewModel"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "album"]
 - !private ["So16NSObjectProtocolP", "albumGenreLabel"]
 - !private ["So16NSObjectProtocolP", "albumReleaseDateLabel"]
@@ -182,7 +183,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "text"]
 - !private ["So16NSObjectProtocolP", "update"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "dataSource"]
 - !private ["So29UIAccessibilityIdentificationP", "reloadData"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
@@ -191,6 +191,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "text"]
 - ["So21UIAppearanceContainerP", "AlbumDetailDataSource"]
 - !private ["So21UIAppearanceContainerP", "AlbumDetailViewModel"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "album"]
 - !private ["So21UIAppearanceContainerP", "albumGenreLabel"]
 - !private ["So21UIAppearanceContainerP", "albumReleaseDateLabel"]
@@ -202,9 +203,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "tableView"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
-- ["So21UIAppearanceContainerP", ""]
 - ["So18UIContentContainerP", "AlbumDetailDataSource"]
 - !private ["So18UIContentContainerP", "AlbumDetailViewModel"]
+- ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "album"]
 - !private ["So18UIContentContainerP", "albumGenreLabel"]
 - !private ["So18UIContentContainerP", "albumReleaseDateLabel"]
@@ -214,7 +215,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "tableView"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
-- ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So17UICoordinateSpaceP", "dataSource"]
 - !private ["So17UICoordinateSpaceP", "reloadData"]
@@ -226,6 +226,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "text"]
 - ["So18UIFocusEnvironmentP", "AlbumDetailDataSource"]
 - !private ["So18UIFocusEnvironmentP", "AlbumDetailViewModel"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "album"]
 - !private ["So18UIFocusEnvironmentP", "albumGenreLabel"]
 - !private ["So18UIFocusEnvironmentP", "albumReleaseDateLabel"]
@@ -237,13 +238,13 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "tableView"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "dataSource"]
 - !private ["So11UIFocusItemP", "reloadData"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So7UILabelC", "text"]
 - ["So30UIPasteConfigurationSupportingP", "AlbumDetailDataSource"]
 - !private ["So30UIPasteConfigurationSupportingP", "AlbumDetailViewModel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "album"]
 - !private ["So30UIPasteConfigurationSupportingP", "albumGenreLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "albumReleaseDateLabel"]
@@ -255,7 +256,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "tableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Album"]
 - ["So11UIResponderC", "AlbumDetailDataSource"]
 - !private ["So11UIResponderC", "AlbumDetailViewModel"]
@@ -275,6 +275,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "AlbumDetailDataSource"]
 - !private ["So30UIResponderStandardEditActionsP", "AlbumDetailViewModel"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "album"]
 - !private ["So30UIResponderStandardEditActionsP", "albumGenreLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "albumReleaseDateLabel"]
@@ -286,11 +287,11 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "tableView"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So12UIScrollViewC", "dataSource"]
 - !private ["So12UIScrollViewC", "reloadData"]
 - ["So20UIScrollViewDelegateP", "AlbumDetailDataSource"]
 - !private ["So20UIScrollViewDelegateP", "AlbumDetailViewModel"]
+- ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "album"]
 - !private ["So20UIScrollViewDelegateP", "albumGenreLabel"]
 - !private ["So20UIScrollViewDelegateP", "albumReleaseDateLabel"]
@@ -300,11 +301,11 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "init"]
 - !private ["So20UIScrollViewDelegateP", "tableView"]
 - !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
-- ["So20UIScrollViewDelegateP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
 - ["So16UIStateRestoringP", "AlbumDetailDataSource"]
 - !private ["So16UIStateRestoringP", "AlbumDetailViewModel"]
+- ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "album"]
 - !private ["So16UIStateRestoringP", "albumGenreLabel"]
 - !private ["So16UIStateRestoringP", "albumReleaseDateLabel"]
@@ -314,7 +315,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "tableView"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
-- ["So16UIStateRestoringP", ""]
 - !private ["So11UITableViewC", "dataSource"]
 - !private ["So11UITableViewC", "reloadData"]
 - ["So21UITableViewControllerC", "Album"]
@@ -322,6 +322,7 @@ depends-member:
 - !private ["So21UITableViewControllerC", "AlbumDetailViewModel"]
 - ["So21UITableViewControllerC", "UIImageView"]
 - ["So21UITableViewControllerC", "UILabel"]
+- ["So21UITableViewControllerC", ""]
 - ["So21UITableViewControllerC", "album"]
 - ["So21UITableViewControllerC", "albumGenreLabel"]
 - ["So21UITableViewControllerC", "albumReleaseDateLabel"]
@@ -332,9 +333,9 @@ depends-member:
 - ["So21UITableViewControllerC", "init"]
 - !private ["So21UITableViewControllerC", "tableView"]
 - ["So21UITableViewControllerC", "viewDidLoad"]
-- ["So21UITableViewControllerC", ""]
 - ["So21UITableViewDataSourceP", "AlbumDetailDataSource"]
 - !private ["So21UITableViewDataSourceP", "AlbumDetailViewModel"]
+- ["So21UITableViewDataSourceP", ""]
 - !private ["So21UITableViewDataSourceP", "album"]
 - !private ["So21UITableViewDataSourceP", "albumGenreLabel"]
 - !private ["So21UITableViewDataSourceP", "albumReleaseDateLabel"]
@@ -345,9 +346,9 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "tableView"]
 - !private ["So21UITableViewDataSourceP", "update"]
 - !private ["So21UITableViewDataSourceP", "viewDidLoad"]
-- ["So21UITableViewDataSourceP", ""]
 - ["So19UITableViewDelegateP", "AlbumDetailDataSource"]
 - !private ["So19UITableViewDelegateP", "AlbumDetailViewModel"]
+- ["So19UITableViewDelegateP", ""]
 - !private ["So19UITableViewDelegateP", "album"]
 - !private ["So19UITableViewDelegateP", "albumGenreLabel"]
 - !private ["So19UITableViewDelegateP", "albumReleaseDateLabel"]
@@ -357,9 +358,9 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "init"]
 - !private ["So19UITableViewDelegateP", "tableView"]
 - !private ["So19UITableViewDelegateP", "viewDidLoad"]
-- ["So19UITableViewDelegateP", ""]
 - ["So18UITraitEnvironmentP", "AlbumDetailDataSource"]
 - !private ["So18UITraitEnvironmentP", "AlbumDetailViewModel"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "album"]
 - !private ["So18UITraitEnvironmentP", "albumGenreLabel"]
 - !private ["So18UITraitEnvironmentP", "albumReleaseDateLabel"]
@@ -371,7 +372,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "tableView"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "dataSource"]
 - !private ["So6UIViewC", "reloadData"]
 - !private ["So6UIViewC", "text"]
@@ -395,6 +395,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "AlbumDetailDataSource"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlbumDetailViewModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "album"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "albumGenreLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "albumReleaseDateLabel"]
@@ -407,7 +408,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
 - !private "13iTunesClient25AlbumC"
 - "13iTunesClient221AlbumDetailControllerC"
@@ -452,17 +452,27 @@ depends-nominal:
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "ac305162b5973a4a2b7aa9395d8b461e"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1a24381f28310b763d774869f207b39d"

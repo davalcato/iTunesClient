@@ -42,6 +42,8 @@ depends-member:
 - ["s7CVarArgP", "SearchResultsDataSource"]
 - !private ["s7CVarArgP", "UIBarButtonItem"]
 - ["s7CVarArgP", "UISearchController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "artist"]
 - !private ["s7CVarArgP", "client"]
 - !private ["s7CVarArgP", "dataSource"]
@@ -66,7 +68,6 @@ depends-member:
 - ["s7CVarArgP", "updateSearchResults"]
 - ["s7CVarArgP", "updateSearchResultsForSearchController"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "ItunesAPIClient"]
@@ -74,6 +75,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "SearchResultsDataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
 - ["s28CustomDebugStringConvertibleP", "UISearchController"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "artist"]
 - !private ["s28CustomDebugStringConvertibleP", "client"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
@@ -98,7 +100,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "updateSearchResults"]
 - ["s28CustomDebugStringConvertibleP", "updateSearchResultsForSearchController"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
@@ -108,6 +109,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "SearchResultsDataSource"]
 - !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
 - ["s23CustomStringConvertibleP", "UISearchController"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "artist"]
 - !private ["s23CustomStringConvertibleP", "client"]
@@ -133,7 +135,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "updateSearchResults"]
 - ["s23CustomStringConvertibleP", "updateSearchResultsForSearchController"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
@@ -143,6 +144,7 @@ depends-member:
 - ["s9EquatableP", "SearchResultsDataSource"]
 - !private ["s9EquatableP", "UIBarButtonItem"]
 - ["s9EquatableP", "UISearchController"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "artist"]
 - !private ["s9EquatableP", "cancel"]
@@ -169,7 +171,6 @@ depends-member:
 - ["s9EquatableP", "updateSearchResults"]
 - ["s9EquatableP", "updateSearchResultsForSearchController"]
 - !private ["s9EquatableP", "viewDidLoad"]
-- ["s9EquatableP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
@@ -179,6 +180,7 @@ depends-member:
 - ["s8HashableP", "SearchResultsDataSource"]
 - !private ["s8HashableP", "UIBarButtonItem"]
 - ["s8HashableP", "UISearchController"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "artist"]
 - !private ["s8HashableP", "cancel"]
@@ -205,7 +207,6 @@ depends-member:
 - ["s8HashableP", "updateSearchResults"]
 - ["s8HashableP", "updateSearchResultsForSearchController"]
 - !private ["s8HashableP", "viewDidLoad"]
-- ["s8HashableP", ""]
 - ["13iTunesClient215ItunesAPIClientC", "init"]
 - !private ["13iTunesClient215ItunesAPIClientC", "lookupArtist"]
 - !private ["13iTunesClient215ItunesAPIClientC", "searchForArtists"]
@@ -217,6 +218,7 @@ depends-member:
 - ["So8NSCodingP", "SearchResultsDataSource"]
 - !private ["So8NSCodingP", "UIBarButtonItem"]
 - ["So8NSCodingP", "UISearchController"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "artist"]
 - !private ["So8NSCodingP", "client"]
 - !private ["So8NSCodingP", "dataSource"]
@@ -238,13 +240,12 @@ depends-member:
 - ["So8NSCodingP", "updateSearchResults"]
 - ["So8NSCodingP", "updateSearchResultsForSearchController"]
 - !private ["So8NSCodingP", "viewDidLoad"]
-- ["So8NSCodingP", ""]
-- !private ["So9NSCopyingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "ItunesAPIClient"]
 - !private ["So26NSExtensionRequestHandlingP", "SearchResultsController"]
 - ["So26NSExtensionRequestHandlingP", "SearchResultsDataSource"]
 - !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
 - ["So26NSExtensionRequestHandlingP", "UISearchController"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "artist"]
 - !private ["So26NSExtensionRequestHandlingP", "client"]
 - !private ["So26NSExtensionRequestHandlingP", "dataSource"]
@@ -261,10 +262,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "updateSearchResults"]
 - ["So26NSExtensionRequestHandlingP", "updateSearchResultsForSearchController"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "AlbumListController"]
 - ["So8NSObjectC", "ItunesAPIClient"]
 - !private ["So8NSObjectC", "SearchResultsController"]
@@ -302,6 +299,7 @@ depends-member:
 - ["So16NSObjectProtocolP", "SearchResultsDataSource"]
 - !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
 - ["So16NSObjectProtocolP", "UISearchController"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "artist"]
 - !private ["So16NSObjectProtocolP", "client"]
 - !private ["So16NSObjectProtocolP", "dataSource"]
@@ -326,9 +324,6 @@ depends-member:
 - ["So16NSObjectProtocolP", "updateSearchResults"]
 - ["So16NSObjectProtocolP", "updateSearchResultsForSearchController"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s16RawRepresentableP", "cancel"]
 - !private ["13iTunesClient223SearchResultsControllerC", "AlbumListController"]
@@ -378,6 +373,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "SearchResultsDataSource"]
 - !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
 - ["So21UIAppearanceContainerP", "UISearchController"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "artist"]
 - !private ["So21UIAppearanceContainerP", "client"]
 - !private ["So21UIAppearanceContainerP", "dataSource"]
@@ -398,7 +394,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "updateSearchResults"]
 - ["So21UIAppearanceContainerP", "updateSearchResultsForSearchController"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So15UIBarButtonItemC", "init"]
 - !private ["SC21UIBarButtonSystemItemO", "cancel"]
 - !private ["So9UIBarItemC", "init"]
@@ -408,6 +403,7 @@ depends-member:
 - ["So18UIContentContainerP", "SearchResultsDataSource"]
 - !private ["So18UIContentContainerP", "UIBarButtonItem"]
 - ["So18UIContentContainerP", "UISearchController"]
+- ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "artist"]
 - !private ["So18UIContentContainerP", "client"]
 - !private ["So18UIContentContainerP", "dataSource"]
@@ -424,7 +420,6 @@ depends-member:
 - ["So18UIContentContainerP", "updateSearchResults"]
 - ["So18UIContentContainerP", "updateSearchResultsForSearchController"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
-- ["So18UIContentContainerP", ""]
 - !private ["So17UICoordinateSpaceP", "dataSource"]
 - !private ["So17UICoordinateSpaceP", "indexPathForSelectedRow"]
 - !private ["So17UICoordinateSpaceP", "reloadData"]
@@ -444,6 +439,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "SearchResultsDataSource"]
 - !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
 - ["So18UIFocusEnvironmentP", "UISearchController"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "artist"]
 - !private ["So18UIFocusEnvironmentP", "client"]
 - !private ["So18UIFocusEnvironmentP", "dataSource"]
@@ -464,7 +460,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "updateSearchResults"]
 - ["So18UIFocusEnvironmentP", "updateSearchResultsForSearchController"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "dataSource"]
 - !private ["So11UIFocusItemP", "indexPathForSelectedRow"]
 - !private ["So11UIFocusItemP", "reloadData"]
@@ -476,6 +471,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "SearchResultsDataSource"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
 - ["So30UIPasteConfigurationSupportingP", "UISearchController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "artist"]
 - !private ["So30UIPasteConfigurationSupportingP", "client"]
 - !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
@@ -496,7 +492,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "updateSearchResults"]
 - ["So30UIPasteConfigurationSupportingP", "updateSearchResultsForSearchController"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "AlbumListController"]
 - ["So11UIResponderC", "ItunesAPIClient"]
 - !private ["So11UIResponderC", "SearchResultsController"]
@@ -530,6 +525,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "SearchResultsDataSource"]
 - !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
 - ["So30UIResponderStandardEditActionsP", "UISearchController"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "artist"]
 - !private ["So30UIResponderStandardEditActionsP", "client"]
 - !private ["So30UIResponderStandardEditActionsP", "dataSource"]
@@ -550,7 +546,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "updateSearchResults"]
 - ["So30UIResponderStandardEditActionsP", "updateSearchResultsForSearchController"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So12UIScrollViewC", "dataSource"]
 - !private ["So12UIScrollViewC", "indexPathForSelectedRow"]
 - !private ["So12UIScrollViewC", "reloadData"]
@@ -560,6 +555,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "SearchResultsDataSource"]
 - !private ["So20UIScrollViewDelegateP", "UIBarButtonItem"]
 - ["So20UIScrollViewDelegateP", "UISearchController"]
+- ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "artist"]
 - !private ["So20UIScrollViewDelegateP", "client"]
 - !private ["So20UIScrollViewDelegateP", "dataSource"]
@@ -573,7 +569,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "updateSearchResults"]
 - ["So20UIScrollViewDelegateP", "updateSearchResultsForSearchController"]
 - !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
-- ["So20UIScrollViewDelegateP", ""]
 - !private ["So11UISearchBarC", "text"]
 - !private ["So18UISearchControllerC", "dimsBackgroundDuringPresentation"]
 - ["So18UISearchControllerC", "init"]
@@ -584,6 +579,7 @@ depends-member:
 - ["So23UISearchResultsUpdatingP", "SearchResultsDataSource"]
 - !private ["So23UISearchResultsUpdatingP", "UIBarButtonItem"]
 - ["So23UISearchResultsUpdatingP", "UISearchController"]
+- ["So23UISearchResultsUpdatingP", ""]
 - !private ["So23UISearchResultsUpdatingP", "client"]
 - !private ["So23UISearchResultsUpdatingP", "dataSource"]
 - !private ["So23UISearchResultsUpdatingP", "definesPresentationContext"]
@@ -594,7 +590,6 @@ depends-member:
 - !private ["So23UISearchResultsUpdatingP", "tableView"]
 - ["So23UISearchResultsUpdatingP", "updateSearchResults"]
 - ["So23UISearchResultsUpdatingP", "updateSearchResultsForSearchController"]
-- ["So23UISearchResultsUpdatingP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "indexPathForSelectedRow"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
@@ -605,6 +600,7 @@ depends-member:
 - ["So16UIStateRestoringP", "SearchResultsDataSource"]
 - !private ["So16UIStateRestoringP", "UIBarButtonItem"]
 - ["So16UIStateRestoringP", "UISearchController"]
+- ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "artist"]
 - !private ["So16UIStateRestoringP", "client"]
 - !private ["So16UIStateRestoringP", "dataSource"]
@@ -621,7 +617,6 @@ depends-member:
 - ["So16UIStateRestoringP", "updateSearchResults"]
 - ["So16UIStateRestoringP", "updateSearchResultsForSearchController"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
-- ["So16UIStateRestoringP", ""]
 - !private ["So17UIStoryboardSegueC", "destination"]
 - !private ["So17UIStoryboardSegueC", "identifier"]
 - !private ["So11UITableViewC", "dataSource"]
@@ -635,6 +630,7 @@ depends-member:
 - !private ["So21UITableViewControllerC", "UIBarButtonItem"]
 - ["So21UITableViewControllerC", "UISearchController"]
 - ["So21UITableViewControllerC", "UIStoryboardSegue"]
+- ["So21UITableViewControllerC", ""]
 - !private ["So21UITableViewControllerC", "artist"]
 - ["So21UITableViewControllerC", "client"]
 - ["So21UITableViewControllerC", "dataSource"]
@@ -649,12 +645,12 @@ depends-member:
 - ["So21UITableViewControllerC", "updateSearchResults"]
 - ["So21UITableViewControllerC", "updateSearchResultsForSearchController"]
 - ["So21UITableViewControllerC", "viewDidLoad"]
-- ["So21UITableViewControllerC", ""]
 - ["So21UITableViewDataSourceP", "ItunesAPIClient"]
 - !private ["So21UITableViewDataSourceP", "SearchResultsController"]
 - ["So21UITableViewDataSourceP", "SearchResultsDataSource"]
 - !private ["So21UITableViewDataSourceP", "UIBarButtonItem"]
 - ["So21UITableViewDataSourceP", "UISearchController"]
+- ["So21UITableViewDataSourceP", ""]
 - !private ["So21UITableViewDataSourceP", "artist"]
 - !private ["So21UITableViewDataSourceP", "client"]
 - !private ["So21UITableViewDataSourceP", "dataSource"]
@@ -669,12 +665,12 @@ depends-member:
 - ["So21UITableViewDataSourceP", "updateSearchResults"]
 - ["So21UITableViewDataSourceP", "updateSearchResultsForSearchController"]
 - !private ["So21UITableViewDataSourceP", "viewDidLoad"]
-- ["So21UITableViewDataSourceP", ""]
 - ["So19UITableViewDelegateP", "ItunesAPIClient"]
 - !private ["So19UITableViewDelegateP", "SearchResultsController"]
 - ["So19UITableViewDelegateP", "SearchResultsDataSource"]
 - !private ["So19UITableViewDelegateP", "UIBarButtonItem"]
 - ["So19UITableViewDelegateP", "UISearchController"]
+- ["So19UITableViewDelegateP", ""]
 - !private ["So19UITableViewDelegateP", "artist"]
 - !private ["So19UITableViewDelegateP", "client"]
 - !private ["So19UITableViewDelegateP", "dataSource"]
@@ -688,13 +684,13 @@ depends-member:
 - ["So19UITableViewDelegateP", "updateSearchResults"]
 - ["So19UITableViewDelegateP", "updateSearchResultsForSearchController"]
 - !private ["So19UITableViewDelegateP", "viewDidLoad"]
-- ["So19UITableViewDelegateP", ""]
 - !private ["So17UITextInputTraitsP", "text"]
 - ["So18UITraitEnvironmentP", "ItunesAPIClient"]
 - !private ["So18UITraitEnvironmentP", "SearchResultsController"]
 - ["So18UITraitEnvironmentP", "SearchResultsDataSource"]
 - !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
 - ["So18UITraitEnvironmentP", "UISearchController"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "artist"]
 - !private ["So18UITraitEnvironmentP", "client"]
 - !private ["So18UITraitEnvironmentP", "dataSource"]
@@ -715,7 +711,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "updateSearchResults"]
 - ["So18UITraitEnvironmentP", "updateSearchResultsForSearchController"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "dataSource"]
 - !private ["So6UIViewC", "indexPathForSelectedRow"]
 - !private ["So6UIViewC", "reloadData"]
@@ -753,7 +748,6 @@ depends-member:
 - ["So37UIViewControllerTransitioningDelegateP", "init"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "searchBar"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "searchResultsUpdater"]
-- !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dataSource"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPathForSelectedRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
@@ -765,14 +759,12 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ItunesAPIClient"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchResultsController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "SearchResultsDataSource"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UISearchController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "artist"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "client"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
@@ -797,10 +789,8 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "updateSearchResults"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "updateSearchResultsForSearchController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "13iTunesClient219AlbumListControllerC"
@@ -827,15 +817,9 @@ depends-nominal:
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
-- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
 - "13iTunesClient223SearchResultsControllerC"
@@ -880,7 +864,6 @@ depends-nominal:
 - "So16UIViewControllerC"
 - "So37UIViewControllerAnimatedTransitioningP"
 - "So37UIViewControllerTransitioningDelegateP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -888,26 +871,32 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s26_RangeReplaceableIndexableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "c196b24401e1e82820f67ef92fcf138a"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a4c5e3f5ad95afc0c7d862371aa94cdd"

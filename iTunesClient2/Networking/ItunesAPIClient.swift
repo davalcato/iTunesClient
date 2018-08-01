@@ -20,7 +20,7 @@ class ItunesAPIClient {
                 return
             }
             
-            let artists = results.flatMap { Artist(json: $0) }
+            let artists = results.compactMap { Artist(json: $0) }
             
             completion(artists, nil)
         }
@@ -47,7 +47,7 @@ class ItunesAPIClient {
             }
             
             let albumResults = results[1..<results.count]
-            let albums = albumResults.flatMap { Album(json: $0) }
+            let albums = albumResults.compactMap { Album(json: $0) }
             
             artist.albums = albums
             completion(artist, nil)
@@ -77,7 +77,7 @@ class ItunesAPIClient {
             }
             
             let songResults = results[1..<results.count]
-            let songs = songResults.flatMap { Song(json: $0) }
+            let songs = songResults.compactMap { Song(json: $0) }
             
             album.songs = songs
             completion(album, nil)
